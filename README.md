@@ -1,6 +1,5 @@
-Sleep, Health & Lifestyle- Machine Learning Proyect
 ![Sleep_health_lifestyle](https://github.com/user-attachments/assets/99e87e02-7fd4-4e2d-9279-a3b0cd51c6ac)
-
+# Sleep, Health & Lifestyle- Machine Learning Proyect
 Ironhack Data Analytics Bootcamp Project
 
 This project applies machine learning techniques to evaluate sleep health and lifestyle factors, predicting outcomes such as stress levels and heart rate based on a range of features, including sleep duration, physical activity, and daily habits. The primary goal is to provide actionable insights that can enhance personal health management by identifying patterns and making data-driven predictions.
@@ -33,7 +32,7 @@ Slide 4 | Slide 5 | Slide 6
 Slide 7 | Slide 8 | Slide 9
 
 
-Project Execution Instructions
+# Project Execution Instructions
 
 Prerequisites:
 Install Python: Download and install the latest version of Python.
