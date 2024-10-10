@@ -1,0 +1,73 @@
+# Data configuration
+data:
+  dataset_path: "data/stress_level.csv"  # Path to the dataset file
+  cleaned_dataset_path: "data/cleaned/stress_level.csv"  # Path to the cleaned dataset
+  features:
+    - "Gender"
+    - "Age"
+    - "Sleep Duration"
+    - "Quality of Sleep"
+    - "Physical Activity Level"
+    - "BMI Category"
+    - "Heart Rate"
+    - "Daily Steps"
+    - "Sleep Disorder"
+  target: "Stress Level"
+  features_selected:
+    - "Gender"
+    - "Age"
+    - "Sleep Duration"
+    - "Quality of Sleep"
+    - "Physical Activity Level"
+    - "BMI Category"
+    - "Heart Rate"
+    - "Daily Steps"
+
+# Model configuration
+model:
+  type: "GradientBoostingRegressor"  # Model type
+  parameters:
+    n_estimators: 922
+    max_depth: 4
+    learning_rate: 0.1091
+
+# Training configuration
+training:
+  test_size: 0.2  # Proportion of data for testing
+  random_state: 42  # Seed for reproducibility
+  cross_validation:
+    folds: 5  # Number of folds for cross-validation
+
+# Logging and output configuration
+logging:
+  log_level: "INFO"
+  log_file: "logs/training.log"
+
+output:
+  model_save_path: "models/stress_model.pkl"
+  metrics_save_path: "results/metrics.json"
+
+# Additional configuration
+hyperparameter_tuning:
+  enabled: true
+  method: "grid_search"  # Search method (grid_search or random_search)
+  search_parameters:
+    n_estimators: [100, 300, 500, 922]
+    max_depth: [3, 4, 5]
+    learning_rate: [0.01, 0.05, 0.1, 0.1091]
+
+# Team information
+team:
+  members:
+    - name: "Adrián Benítez"
+      role: "Graphic Design & Future Data Analyst"
+      contact: "https://www.linkedin.com/in/adrián-benítez-rueda-10102565/"
+      contributions: "Model development, data analysis, application deployment"
+    - name: "Saraluz Elechiguerra"
+      role: "Consultant & Future Data Analyst"
+      contact: "https://www.linkedin.com/in/saraluz-elechiguerra-7114a0320/"
+      contributions: "Data preprocessing, feature engineering, and model evaluation"
+    - name: "José Miguel Sánchez"
+      role: "Recruiter & Future Data Analyst"
+      contact: "https://www.linkedin.com/in/josemiguelsanchez4"
+      contributions: "Application backend development and integration"
