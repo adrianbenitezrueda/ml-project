@@ -56,7 +56,8 @@ Run the Jupyter Notebook:
 
 Open project_main.ipynb and project_functions.py.
 Execute the entire notebook to preprocess the data and train the machine learning models.
-Use the generated results:
+
+# Try our generated results:
 
 
 Links
