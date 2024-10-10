@@ -1,65 +1,64 @@
 ![Sleep_health_lifestyle](https://github.com/user-attachments/assets/99e87e02-7fd4-4e2d-9279-a3b0cd51c6ac)
 # Sleep, Health & Lifestyle - Machine Learning Project
-Ironhack Data Analytics Bootcamp Project
 
-This project applies machine learning techniques to evaluate sleep health and lifestyle factors, predicting outcomes such as stress levels and heart rate based on a range of features, including sleep duration, physical activity, and daily habits. The primary goal is to provide actionable insights that can enhance personal health management by identifying patterns and making data-driven predictions.
+## Project Description
 
-Mission
-To leverage machine learning models for optimizing sleep health predictions. By using comprehensive health metrics and lifestyle data, we aim to offer accurate predictions that contribute to improved well-being and personalized recommendations.
+### Ironhack Data Analytics Bootcamp Project
 
-Vision
+This project applies machine learning techniques to evaluate sleep health and lifestyle factors, predicting stress levels based on a range of features, including sleep duration, physical activity, and daily habits. The primary goal is to provide actionable insights that can enhance personal health management by identifying patterns and making data-driven predictions.
+
+### Mission
+To leverage machine learning models for optimizing stress level predictions. By using comprehensive health metrics and lifestyle data, we aim to offer accurate predictions that contribute to improved well-being and personalized recommendations.
+
+### Vision
 To set a standard for data-driven health analytics by continuously improving machine learning models. We aim to enable better health decisions and predictive accuracy in wellness management through reliable data and advanced modeling.
 
-Project Members
-Name	Background	Contact
-Adrián Benítez	Graphic Designer, Future Data Analyst	LinkedIn
-Saraluz Elechiguerra	Consultant and Future Data Analyst	LinkedIn
-José Miguel Sánchez	Administrator and Future Data Analyst	LinkedIn
+---
 
-Charts
-Here are some visualizations generated during the project:
+## Project Members
 
-Stress Level vs Sleep Duration
-Heart Rate Predictions
-Daily Steps and Sleep Quality
-Predicted vs Actual Health Metrics
+| Name                | Background                             | Contact                                                   |
+|---------------------|----------------------------------------|-----------------------------------------------------------|
+| **Adrián Benítez**   | Graphic Design & Future Data Analyst    | [LinkedIn](https://www.linkedin.com/in/adrián-benítez-rueda-10102565/) |
+| **Saraluz Elechiguerra** | Consultant & Future Data Analyst | [LinkedIn](https://www.linkedin.com/in/saraluz-elechiguerra-7114a0320/) |
+| **José Miguel Sánchez** | Recruiter & Future Data Analyst | [LinkedIn](https://www.linkedin.com/in/josemiguelsanchez4) |
 
-Slides
-Explore the slides explaining the machine learning process and results:
+---
 
-Slide 1 | Slide 2 | Slide 3
-Slide 4 | Slide 5 | Slide 6
-Slide 7 | Slide 8 | Slide 9
+## Project Execution Instructions
 
-
-# Project Execution Instructions
-
-Prerequisites:
-Install Python: Download and install the latest version of Python.
-Fork the repository on your machine, and open it locally using Visual Studio Code or similar.
-Setup Environment:
-Create and activate a virtual environment:
-
-bash
-Copy code
+### Prerequisites:
+1. **Install Python**: Download and install [Python](https://www.python.org/).
+2. **Fork the repository on your machine,** and open it locally using Visual Studio Code or similar.
+3. **Create and activate a virtual environment**:
+   
+```bash
+# Create the environment
 conda create --name myenv
+
+# Activate the environment
 conda activate myenv
-Install dependencies:
+```
 
-bash
-Copy code
-conda install -r requirements.txt
-Load the dataset:
+4. **Install dependencies**: Run this command to install the packages from requirements.txt:
 
-Unzip the data file located at /csv/original/original-data.zip.
-Run the Jupyter Notebook:
+```bash
+   conda install -r requirements.txt
+```
 
-Open project_main.ipynb and project_functions.py.
-Execute the entire notebook to preprocess the data and train the machine learning models.
+5. **Locate the Data File**: The dataset is located at `data/raw/Sleep_health_and_lifestyle_dataset.csv`.
+
+6. **Run the Jupyter Notebook**:
+   - Open `project_main.ipynb`.
+   - Ensure that `project_functions.py` is in the same directory.
+   - Execute the entire notebook to preprocess the data and train the machine learning models.
+
+
+
+
+
+
 
 # Try our generated results:
 
-
-Links
-GitHub Repository
-Tableau Public
+- [GitHub Repository](https://github.com/adrianbenitezrueda/stress-level-recommendations)
